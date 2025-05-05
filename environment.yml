@@ -1,0 +1,19 @@
+name: subreddit-mental-health
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas=1.5.3
+  - numpy=1.24.3
+  - scikit-learn=1.2.2
+  - matplotlib=3.7.1
+  - seaborn=0.12.2
+  - tqdm=4.65.0
+  - jupyterlab=4.0.5
+  - notebook=7.0.2
+  - pip
+  - pip:
+      - torch==2.0.1
+      - transformers==4.31.0
+      - regex==2023.6.3
